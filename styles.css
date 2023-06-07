@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Open Sans, sans-serif;
+}
+
+.showcase {
+    /*background-color: #eaeaea;*/
+    background-image: url('https://source.unsplash.com/1600x900/?Atlantic City');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weathercard {
+    background-color: rgba(65, 64, 64, .90);
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    margin: 0 20px;
+    border-radius: 50px;
+}
+
+.info-container {
+    color: white;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.search-bar {
+    height: 40px;
+    width: 60%;
+    border-radius: 60px;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(65, 64, 64, .5);
+    color: white;
+    padding-left: 20px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(65, 64, 64, .5);
+    color: white;
+}
+
+#city {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#temperature {
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#humidity, #wind-speed {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#description {
+    display: flex;
+}
+
+#sky {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
