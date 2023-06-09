@@ -1,4 +1,4 @@
-const apiKey = "14559afa09f5cf35f65e4498881d3f15"
+//stay away from my api key. No touchie >:(
 
 const weatherData = async (city) => {
     const request = await fetch(
