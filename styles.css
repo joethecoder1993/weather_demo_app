@@ -84,3 +84,7 @@ button {
     font-size: 40px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
