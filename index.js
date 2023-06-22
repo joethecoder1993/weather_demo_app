@@ -1,4 +1,4 @@
-//stay away from my ap
+//stay away from my api key >:(
 
 const weatherData = async (city) => {
     const request = await fetch(
